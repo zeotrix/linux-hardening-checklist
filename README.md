@@ -1,6 +1,5 @@
 ## For personal os:
 
-### 1.Install UBUNTU
 - [ ] Download the latest [Ubuntu Desktop](https://ubuntu.com/download/desktop)
 - [ ] Create bootable:<br/>
       in Windows use [rufus](https://rufus.ie/en/#download)<br/>
@@ -15,16 +14,37 @@
       ```
       /
       ```
+- [ ] Gnome tweaks
 - [ ] Download [v2ray](https://github.com/2dust/v2rayN/releases) and config it: start at boot,etc
-      
       ```
       sudo apt update
       sudo dpkg -i v2ray.deb
       ```
-- [ ] install snap:
+- [ ] install Snap:<br/>
       ```
       sudo apt update
       sudo apt install snapd
       ```
+- [ ] Install Telegram:<br/> ```sudo snap install telegram-desktop```
+- [ ] install vlc if not installed
+- [ ] chrome
+- [ ] persian fonts
+- [ ] 
+- [ ] install [sublime](https://www.sublimetext.com/docs/linux_repositories.html)
+- [ ] istall wireshark
+- [ ] install Burp
+- [ ] install go and set path for it
+- [ ] docker
+- [ ] discord
+- [ ] xmind
+- [ ] pycharm
+- [ ] phpstorm
+- [ ] cline
+- [ ] crunch
+- [ ] ffuf
+- [ ] jwt-tool
+- [ ] jython
+- [ ] sqlmap
+- [ ] tplmap
 - [ ] 
       
