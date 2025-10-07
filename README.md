@@ -32,7 +32,15 @@
 - [ ] 
 - [ ] install [sublime](https://www.sublimetext.com/docs/linux_repositories.html)
 - [ ] istall wireshark
-- [ ] install Burp
+- [ ] install Burp <br/>      
+
+      ```
+      add `alias burp='java -jar $HOME/Documents/Burp.Suite.Professional.2025.6.5/BurpLoaderKeygen117.jar'` to `~/.bashrc`
+      ```
+      
+      
+
+      
 - [ ] install go and set path for it
 - [ ] docker
 - [ ] discord
