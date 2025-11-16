@@ -42,6 +42,7 @@
 
       
 - [ ] install go and set path for it
+- [ ] pyenv
 - [ ] docker
 - [ ] discord
 - [ ] xmind
