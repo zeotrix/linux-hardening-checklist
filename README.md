@@ -42,7 +42,12 @@
       sudo dpkg -i google-chrome-stable_current_amd64.deb
       ```
       
-- [ ] 
+- [ ] HomeBrew:<br/>
+
+      ```
+      https://brew.sh/
+      ```
+      
 - [ ] Download [v2ray](https://github.com/2dust/v2rayN/releases) and config it: start at boot,etc
 
       ```
