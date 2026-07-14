@@ -183,6 +183,11 @@
       sudo usermod -aG docker $USER
       logging out and back in.
       ```
+- [ ] Codex:<br/>
+
+      ```
+      npm install -g @openai/codex
+      ```
       
 - [ ] discord
 - [ ] xmind
