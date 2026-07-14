@@ -213,6 +213,12 @@
       cd to the path of extracted file
       sudo ./install.sh
       ```
+- [ ] witr:<br/>
+
+      ```
+      https://github.com/pranshuparmar/witr?tab=readme-ov-file#8-installation
+      curl -fsSL https://raw.githubusercontent.com/pranshuparmar/witr/main/install.sh | bash
+      ```
       
 - [ ] discord
 - [ ] xmind
