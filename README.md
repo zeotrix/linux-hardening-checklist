@@ -72,8 +72,15 @@
       sudo snap install telegram-desktop
       ```
       
-- [ ] install vlc if not installed
-- [ ] chrome
+- [ ] install vlc if not installed:<br/>
+
+      ```
+      sudo apt update
+      sudo apt install vlc
+      ```
+      
+- [ ] 
+- [ ] 
 - [ ] persian fonts
 - [ ] 
 - [ ] install [sublime](https://www.sublimetext.com/docs/linux_repositories.html)
