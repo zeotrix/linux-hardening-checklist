@@ -25,7 +25,7 @@
       sudo apt upgrade -y
       sudo apt autoremove
       sudo add-apt-repository universe
-      sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev make jq tree htop unzip libffi-dev liblzma-dev traceroute vim 
+      sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev make jq curl tree htop unzip  traceroute vim  wget git unzip xz-utils zip libglu1-mesa clang cmake ninja-build pkg-config libgtk-3-dev libstdc++-12-dev 
       ```
       
 - [ ] GNOME Tweaks:<br/>
