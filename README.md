@@ -12,9 +12,30 @@
       ```
 - [ ] i use this partitioning:<br/>
       ```
-      /
+      /boot/efi      512Mb
+      /              80Gb
+      /home          400Gb   
+      
       ```
-- [ ] Gnome tweaks
+- [ ] 
+      ```
+      sudo apt update
+      sudo apt upgrade -y
+      sudo apt autoremove
+      sudo add-apt-repository universe
+      ```
+- [ ] GNOME Tweaks:<br/>
+      ```
+      sudo apt install gnome-tweaks
+      sudo apt install gnome-shell-extensions
+      ```
+- [ ] google chrome:<br/>
+      ```
+      Download from https://www.google.com/chrome/
+      sudo dpkg -i google-chrome-stable_current_amd64.deb
+      ```
+      
+- [ ] 
 - [ ] Download [v2ray](https://github.com/2dust/v2rayN/releases) and config it: start at boot,etc
       ```
       sudo apt update
@@ -24,7 +45,13 @@
       ```
       sudo apt update
       sudo apt install snapd
+      sudo snap install core
+      sudo snap refresh
       ```
+- [ ] htop<br/>
+  ```
+  sudo apt  install htop
+  ```
 - [ ] Install Telegram:<br/> ```sudo snap install telegram-desktop```
 - [ ] install vlc if not installed
 - [ ] chrome
