@@ -126,7 +126,13 @@
       ```
             
 - [ ] persian fonts
-- [ ] 
+- [ ] Remmina:<br/>
+
+      ```
+      sudo apt update
+      sudo apt install remmina remmina-plugin-rdp remmina-plugin-vnc
+      ```
+      
 - [ ] install [sublime](https://www.sublimetext.com/docs/linux_repositories.html)<br/>
 
       ```
