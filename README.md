@@ -23,6 +23,7 @@
       ```
       sudo apt update
       sudo apt upgrade -y
+      sudo apt install vim 
       sudo apt autoremove
       sudo add-apt-repository universe
       ```
@@ -102,6 +103,14 @@
       javac -version
       ```
       
+- [ ] VSCode:<br/>
+
+      ```
+      download it from: (https://code.visualstudio.com/docs/setup/linux)
+      
+      
+      ```
+            
 - [ ] Android Studio:<br/>
 
       ```
