@@ -60,6 +60,14 @@
   
   ```
   sudo apt install git
+  git --version
+  git config --global user.name "username"
+  git config --global user.email "your_email@example.com"
+  git config --global --list
+  git config --global init.defaultBranch master
+  git config --global color.ui auto
+  git config --global pull.rebase false
+  git config --global core.editor "vim"
   ```
 - [ ] htop<br/>
   
@@ -86,8 +94,25 @@
       sudo apt install vlc ubuntu-restricted-extras ffmpeg yt-dlp
       ```
       
-- [ ] 
-- [ ] 
+- [ ] Install Java:<br/>
+
+      ```
+      sudo apt install openjdk-26-jdk -y
+      java -version
+      javac -version
+      ```
+      
+- [ ] Android Studio:<br/>
+
+      ```
+
+      ```
+- [ ] Flutter stable:<br/>
+
+      ```
+
+      ```
+            
 - [ ] persian fonts
 - [ ] 
 - [ ] install [sublime](https://www.sublimetext.com/docs/linux_repositories.html)<br/>
