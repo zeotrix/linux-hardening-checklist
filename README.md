@@ -205,7 +205,15 @@
       if you want:
       https://github.com/nesquena/hermes-webui
       ```
+- [ ] XTREME DOWNLOAD MANAGER:<br/>
 
+      ```
+      https://xtremedownloadmanager.com/#downloads
+      tar -xf file.tar.xz
+      cd to the path of extracted file
+      sudo ./install.sh
+      ```
+      
 - [ ] discord
 - [ ] xmind
 - [ ] pycharm
