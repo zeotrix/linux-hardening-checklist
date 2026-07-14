@@ -226,6 +226,18 @@
       https://github.com/pranshuparmar/witr?tab=readme-ov-file#8-installation
       curl -fsSL https://raw.githubusercontent.com/pranshuparmar/witr/main/install.sh | bash
       ```
+- [ ] Wine:<br/>
+
+      ```
+      sudo dpkg --add-architecture i386
+      sudo apt update
+      sudo apt install -y wine winetricks
+      wine --version
+      export WINEPREFIX=$HOME/.wine-mt4
+      export WINEARCH=win32
+      winecfg
+      winetricks corefonts vcrun2010
+      ```
       
 - [ ] discord
 - [ ] xmind
