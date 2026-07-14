@@ -13,11 +13,8 @@
 - [ ] i use this partitioning:<br/>
 
       ```
-
       /boot/efi      512Mb
-      
       /              80Gb
-      
       /home          400Gb   
       ```
 
