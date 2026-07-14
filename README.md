@@ -162,6 +162,11 @@
       ```
       curl -fsSL https://pyenv.run | bash
       cd ~/.pyenv && src/configure && make -C src
+      add following command into ~/.profile and ~/.bashrc:
+      export PYENV_ROOT="$HOME/.pyenv"
+      [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+      eval "$(pyenv init - bash)"
+
       ```
       
 - [ ] Docker:<br/>
