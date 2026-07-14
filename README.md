@@ -53,6 +53,9 @@
       ```
       sudo apt update
       sudo dpkg -i v2ray.deb
+      cd ~/.local/share/v2rayN/bin/xray
+      wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
+      wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
       ```
 - [ ] install Snap:<br/>
 
