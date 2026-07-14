@@ -26,6 +26,7 @@
       sudo apt install vim 
       sudo apt autoremove
       sudo add-apt-repository universe
+      sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev make jq tree htop unzip libffi-dev liblzma-dev traceroute
       ```
       
 - [ ] GNOME Tweaks:<br/>
@@ -70,18 +71,6 @@
   git config --global pull.rebase false
   git config --global core.editor "vim"
   ```
-- [ ] htop<br/>
-  
-  ```
-  sudo apt install htop
-  ```
-  
-- [ ] traceroute<br/>
-  
-  ```
-  sudo apt install traceroute
-  ```
-  
 - [ ] Install Telegram:<br/>
 
       ```
@@ -145,8 +134,28 @@
 
       
 - [ ] install go and set path for it
-- [ ] pyenv
-- [ ] docker
+- [ ] pyenv:<br/>
+
+      ```
+      curl -fsSL https://pyenv.run | bash
+      cd ~/.pyenv && src/configure && make -C src
+      ```
+      
+- [ ] Docker:<br/>
+
+      ```
+      sudo apt install -y ca-certificates curl gnupg
+      sudo install -m 0755 -d /etc/apt/keyrings
+      curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+      sudo chmod a+r /etc/apt/keyrings/docker.gpg
+      echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+      sudo apt update
+      sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+      docker --version
+      sudo usermod -aG docker $USER
+      logging out and back in.
+      ```
+      
 - [ ] discord
 - [ ] xmind
 - [ ] pycharm
