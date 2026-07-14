@@ -66,6 +66,13 @@
   ```
   sudo apt install htop
   ```
+  
+- [ ] traceroute<br/>
+  
+  ```
+  sudo apt install traceroute
+  ```
+  
 - [ ] Install Telegram:<br/>
 
       ```
@@ -77,6 +84,7 @@
       ```
       sudo apt update
       sudo apt install vlc
+      sudo apt install ubuntu-restricted-extras ffmpeg yt-dlp
       ```
       
 - [ ] 
