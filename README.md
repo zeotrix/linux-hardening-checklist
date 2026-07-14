@@ -21,7 +21,7 @@
       /home          400Gb   
       ```
 
-- [ ] 
+- [ ] First Configs:<br/>
 
       ```
       sudo apt update
@@ -58,12 +58,23 @@
       sudo snap install core
       sudo snap refresh
       ```
+
+- [ ] Git<br/>
+  
+  ```
+  sudo apt install git
+  ```
 - [ ] htop<br/>
   
   ```
-  sudo apt  install htop
+  sudo apt install htop
   ```
-- [ ] Install Telegram:<br/> ```sudo snap install telegram-desktop```
+- [ ] Install Telegram:<br/>
+
+      ```
+      sudo snap install telegram-desktop
+      ```
+      
 - [ ] install vlc if not installed
 - [ ] chrome
 - [ ] persian fonts
