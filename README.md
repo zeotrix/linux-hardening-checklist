@@ -196,7 +196,16 @@
       install ponytail (https://ponytail.dev/#install):
       codex plugin marketplace add DietrichGebert/ponytail
       ```
-      
+
+- [ ] Hermes:<br/>
+
+      ```
+      https://hermes-agent.nousresearch.com:
+      curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+      if you want:
+      https://github.com/nesquena/hermes-webui
+      ```
+
 - [ ] discord
 - [ ] xmind
 - [ ] pycharm
