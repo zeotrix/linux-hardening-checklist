@@ -83,8 +83,7 @@
 
       ```
       sudo apt update
-      sudo apt install vlc
-      sudo apt install ubuntu-restricted-extras ffmpeg yt-dlp
+      sudo apt install vlc ubuntu-restricted-extras ffmpeg yt-dlp
       ```
       
 - [ ] 
