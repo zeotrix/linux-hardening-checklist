@@ -130,7 +130,23 @@
       sudo apt-get install sublime-text
       ```
       
-- [ ] 
+- [ ] Node:<br/>
+
+      ```
+      sudo apt install -y curl build-essential
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+      source ~/.bashrc
+      nvm --version
+      nvm install --lts
+      node -v
+      npm -v
+      nvm alias default lts/*
+      npm install -g npm@latest
+      npm install -g yarn pnpm
+      yarn -v
+      pnpm -v
+      ```
+      
 - [ ] istall wireshark
 - [ ] install Burp <br/>      
 
