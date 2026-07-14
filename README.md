@@ -27,6 +27,13 @@
       sudo add-apt-repository universe
       sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev make jq curl tree htop unzip  traceroute vim  wget git unzip xz-utils zip libglu1-mesa clang cmake ninja-build pkg-config libgtk-3-dev libstdc++-12-dev 
       ```
+- [ ] Set shortcuts for .bashrc:<br/>
+
+      ```
+      add 'username ALL=(ALL) NOPASSWD: /usr/bin/apt update, /usr/bin/apt upgrade -y, /usr/bin/snap refresh' to visudo
+      add to .bashrc:
+      alias update='sudo apt update && sudo apt upgrade -y && brew update && brew upgrade && sudo snap refresh && codebase-memory-mcp update && pyenv update'
+      ```
       
 - [ ] GNOME Tweaks:<br/>
 
