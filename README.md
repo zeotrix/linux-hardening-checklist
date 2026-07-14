@@ -15,7 +15,6 @@
       /boot/efi      512Mb
       /              80Gb
       /home          400Gb   
-      
       ```
 - [ ] 
       ```
