@@ -11,6 +11,7 @@
       3- sudo dd if=/path/to/ubunto.iso of=/dev/sdx bs=16M      (bs=BlockSize use 4 or 8 or 16. i used 16)     
       ```
 - [ ] i use this partitioning:<br/>
+
       ```
 
       /boot/efi      512Mb
@@ -19,19 +20,24 @@
       
       /home          400Gb   
       ```
+
 - [ ] 
+
       ```
       sudo apt update
       sudo apt upgrade -y
       sudo apt autoremove
       sudo add-apt-repository universe
       ```
+      
 - [ ] GNOME Tweaks:<br/>
+
       ```
       sudo apt install gnome-tweaks
       sudo apt install gnome-shell-extensions
       ```
 - [ ] google chrome:<br/>
+
       ```
       Download from https://www.google.com/chrome/
       sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -39,11 +45,13 @@
       
 - [ ] 
 - [ ] Download [v2ray](https://github.com/2dust/v2rayN/releases) and config it: start at boot,etc
+
       ```
       sudo apt update
       sudo dpkg -i v2ray.deb
       ```
 - [ ] install Snap:<br/>
+
       ```
       sudo apt update
       sudo apt install snapd
@@ -51,6 +59,7 @@
       sudo snap refresh
       ```
 - [ ] htop<br/>
+  
   ```
   sudo apt  install htop
   ```
