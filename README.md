@@ -188,6 +188,13 @@
 
       ```
       npm install -g @openai/codex
+      install rtk (https://github.com/rtk-ai/rtk):
+      brew install rtk
+      install codebase-memory-mcp (https://github.com/DeusData/codebase-memory-mcp):
+      curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash -s -- --ui
+      codebase-memory-mcp config set auto_index true
+      install ponytail (https://ponytail.dev/#install):
+      codex plugin marketplace add DietrichGebert/ponytail
       ```
       
 - [ ] discord
