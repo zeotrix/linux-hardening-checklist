@@ -182,6 +182,7 @@
       docker --version
       sudo usermod -aG docker $USER
       logging out and back in.
+      verify by: sudo docker run hello-world
       ```
 - [ ] Codex:<br/>
 
