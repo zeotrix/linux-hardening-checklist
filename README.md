@@ -110,7 +110,7 @@
 - [ ] Android Studio:<br/>
 
       ```
-
+      Download from: https://developer.android.com/studio
       ```
 - [ ] Flutter stable:<br/>
 
