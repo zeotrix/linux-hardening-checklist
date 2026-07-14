@@ -23,10 +23,9 @@
       ```
       sudo apt update
       sudo apt upgrade -y
-      sudo apt install vim 
       sudo apt autoremove
       sudo add-apt-repository universe
-      sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev make jq tree htop unzip libffi-dev liblzma-dev traceroute
+      sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev make jq tree htop unzip libffi-dev liblzma-dev traceroute vim 
       ```
       
 - [ ] GNOME Tweaks:<br/>
